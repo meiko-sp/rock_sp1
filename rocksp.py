@@ -12,6 +12,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+
 # Accessに書き込む関数
 def write_to_access(val):
     conn = pyodbc.connect(
